@@ -31,7 +31,17 @@ The included scenario analyzes 1,800 payment events and injects a recent UPI aut
 7. Creates Razorpay test Payment Links, verifies payment status, and closes an idempotent recovery proof ledger.
 
 ## Screens
+### Incident Command Center
 
+![PayPulse Incident Command Center](docs/screenshots/command-center.png)
+
+### Causal Policy Evaluation
+
+![PayPulse Causal Policy Evaluation](docs/screenshots/causal-policy.png)
+
+### Razorpay Test Recovery
+
+![PayPulse Razorpay Recovery](docs/screenshots/razorpay-recovery.png)
 - **Incident Command Center** — failure timeline, blast radius, cohort and evidence
 - **Causal Policy Evaluation** — PayPulse versus blind retry with holdout interval
 - **Recovery Queue** — transaction-level action, uplift, value, confidence and mode
