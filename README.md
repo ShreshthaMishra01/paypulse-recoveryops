@@ -28,7 +28,7 @@ The included scenario analyzes 1,800 payment events and injects a recent UPI aut
 4. Trains per-action outcome models on 3,600 randomized synthetic interventions.
 5. Chooses among no action, delayed retry, payment link and alternate method.
 6. Evaluates against blind retry using a temporal holdout, inverse propensity scoring and a bootstrap interval.
-7. Mock-executes approved actions with idempotency and a proof ledger.
+7. Creates Razorpay test Payment Links, verifies payment status, and closes an idempotent recovery proof ledger.
 
 ## Screens
 
