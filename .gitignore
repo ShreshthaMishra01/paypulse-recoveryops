@@ -1,0 +1,19 @@
+# Secrets
+.env
+backend/.env
+*.pem
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Local artifacts
+.DS_Store
+*.log
